@@ -22,6 +22,8 @@ public class KafKaSource {
                 StringDeserializer.class.getName());
 
         System.out.println(" git");
+        System.out.println("hello hot-fix");
+
         System.out.println("hello master");
         env.execute();
     }
