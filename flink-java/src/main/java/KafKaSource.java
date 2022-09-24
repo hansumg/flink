@@ -21,7 +21,7 @@ public class KafKaSource {
         props.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG,
                 StringDeserializer.class.getName());
 
-        System.out.println("hello git");
+        System.out.println(" git");
 
         env.execute();
     }
