@@ -26,6 +26,7 @@ public class KafKaSource {
 
         System.out.println("hello master");
         System.out.println("push test");
+        System.out.println("pull test");
         env.execute();
     }
 }
